@@ -41,9 +41,9 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                /*  groupId = 'com.github.technicalamanpandit'
-                  artifactId = 'first_library'
-                  version = '1.9.0'*/
+                  groupId = 'com.github.technicalamanpandit'
+                  artifactId = 'CSV_Reader'
+                  version = '1.1'
             }
         }
     }
